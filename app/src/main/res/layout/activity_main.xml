@@ -31,14 +31,14 @@
             android:id="@+id/diceImage"
             android:layout_width="132dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/dicegeneral"
+            android:src="@drawable/dicegeneral2"
             android:contentDescription="Dice Image" />
 
         <ImageView
             android:id="@+id/diceImage2"
             android:layout_width="132dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/dicegeneral"
+            android:src="@drawable/dicegeneral1"
             android:contentDescription="Dice Image" />
 
     </LinearLayout>
