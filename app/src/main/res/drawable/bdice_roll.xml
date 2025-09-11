@@ -1,0 +1,9 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/dicer1" android:duration="100" />
+    <item android:drawable="@drawable/dicer2" android:duration="100" />
+    <item android:drawable="@drawable/dicer3" android:duration="100" />
+    <item android:drawable="@drawable/dicer4" android:duration="100" />
+    <item android:drawable="@drawable/dicer5" android:duration="100" />
+    <item android:drawable="@drawable/dicer6" android:duration="100" />
+</animation-list>

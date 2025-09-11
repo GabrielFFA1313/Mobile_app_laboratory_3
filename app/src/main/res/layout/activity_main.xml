@@ -14,12 +14,34 @@
         android:layout_height="wrap_content"
         android:text="Dice Roller" />
 
-    <ImageView
-        android:id="@+id/diceImage"
+    <TextView
+        android:id="@+id/total"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/dicegeneral"
-        android:contentDescription="Dice Image" />
+        android:text="Total"/>
+
+    <!-- Container for the dice -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/diceImage"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dicegeneral"
+            android:contentDescription="Dice Image" />
+
+        <ImageView
+            android:id="@+id/diceImage2"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dicegeneral"
+            android:contentDescription="Dice Image" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/button"
